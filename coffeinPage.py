@@ -18,6 +18,10 @@ class coffeinPage():
         self.kaffee_sometimes_button.place(x=725, y=480, width=100, height=40)
         self.kaffee_daily_button.place(x=825, y=480, width=100, height=40)
 
+# @ statische methoden braucht kein self arg,  weils keine instanz braucht
+#  somitr als funktion immer und überall aufgerufen werden kann
+
+
 ######################################### Unfinished ###################################################################
 def never():
     trefferquote.append("never")
