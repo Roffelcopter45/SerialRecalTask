@@ -13,12 +13,13 @@ class Looper():
 
     def __init__(self) -> None:
         window = self.getWindow()
-        menu = initMenuPage(window)
+        menu = initMenuPage (window)
         menu.call()
         window.mainloop()
 
+        change(inPage, outPage)
         menu.forget
-        #change()
+        
 
 
 
@@ -31,8 +32,10 @@ class Looper():
         return window
 
     @staticmethod
-    def change(str):
-        print(str)
+    def change(str, ):
+        
+        
+        outPage.forget()
 
 
 
